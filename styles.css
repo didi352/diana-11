@@ -1,3 +1,33 @@
 body {
     background-color: linear-gradient(aquamarine, red, yellowgreen, orchid) 
 }
+
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(aquamarine, red, yellowgreen, orchid);
+            animation: blinkBackground 1s infinite alternate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        @keyframes blinkBackground {
+            0% {
+                background: linear-gradient(aquamarine, red, yellowgreen, orchid);
+            }
+            50% {
+                background: linear-gradient(orchid, yellowgreen, red, aquamarine);
+            }
+            100% {
+                background: linear-gradient(red, orchid, aquamarine, yellowgreen);
+            }
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+ 
