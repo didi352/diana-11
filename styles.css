@@ -7,7 +7,6 @@ body {
             height: 100vh;
             background: linear-gradient(aquamarine, red, yellowgreen, orchid);
             animation: blinkBackground 1s infinite alternate;
-            display: flex;
             justify-content: center;
             align-items: center;
             font-family: Arial, sans-serif;
